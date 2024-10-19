@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/blank.css">
+    <title>Document</title>
+</head>
+<body>
+   <section class="head">
+    <div class="container">
+        <div class="first">
+           <h6>Pay powdur</h6>
+           <h3>$134.00</h3>
+           <div class="mate">
+             <img src="assest/images/blank1.jpg" alt="">
+             <div class="pure">
+                <p>pure set</p>
+                <p id="cost">$65.00</p>
+                <button id="add">+</button><span id="qty">1</span><button id="add">-</button>
+             </div>
+          </div>
+          <div class="mate">
+            <img src="assest/images/blank2.jpg" alt="">
+            <div class="pure">
+             <p>pure glow cream</p>
+             <p>$64.00</p><span>($32.00 each)</span></p>
+             <button id="nom">+</button><span>2</span><button id="nom">-</button>
+            </div>
+           </div>
+           <div class="sub">
+             <p>Subtotal: #129.00</p>
+             <p>shipping: #5.00 <span>(Ground shipping 3-5 business days)</span></p>
+           </div>
+           <hr>
+           <h3>
+            Total due: $134.00
+           </h3>
+        </div>
+        <div class="second">
+            <h5>Or pay with card</h5>
+            <h6>Email</h6>
+            <input type="email" name="" id="email">
+            <br>
+            <h6>Name</h6>
+            <input type="text" placeholder="">
+            <br>
+            <h6>Shipping address</h6>
+            <input type="text" placeholder="">
+            <br>
+            <h6>Card information</h6>
+            <input type="text" placeholder="1234 1234 1234 1234">
+            <br>
+            <h6>Expiration date</h6>
+            <input type="text" placeholder="MM/YY">
+            <br>
+            <h6>CVC</h6>
+            <input type="text" placeholder="CVC">
+           <div class="btn">
+                <input type="radio" name="" id="">
+                <div class="tick">
+                  <p>Billing address is</p>
+                  <p>same as shipping</p>
+                </div>
+            </div>
+            <div>
+           <button class="blue">Pay $134.00</button>
+        </div>
+    </div>
+   </section>
+
+
+   <script>
+    const costOfItem = 500;
+    const shippingFee = 250;
+    let qty = 1;
+    let subTotal = qty = costOfItem;
+    let total = qty = costOfItem + shippingFee;
+
+    // get add
+
+    document.getElementById("add").addEventListener("click"), () => {
+        qty += 1
+        
+
+    }
+   </script>
+</body>
+</html>

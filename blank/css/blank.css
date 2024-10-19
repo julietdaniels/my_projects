@@ -1,0 +1,124 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "jost" sans-serif;
+}
+
+.head {
+  background-color: aqua;
+}
+
+.head .container {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-top: 30px;
+  justify-content: center;
+}
+
+.head .container .first {
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.container .first h6 {
+  font-size: 15px;
+}
+
+.container .first h3 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.first .mate {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+ .first img {
+  width: 70px;
+  height: 60px;
+  padding-right: 10px;
+}
+.first .pure {
+    padding-bottom: 30px;
+    font-size: 13px;
+}
+
+.pure #add {
+ width: 30px;
+ padding: 4px;
+ border-radius: 20%;
+ padding-left: 10px;
+ margin-left: 5px;
+ margin-right: 5px;
+ background-color: rgb(205, 170, 238);
+ font-size: 20px;
+ color: white;
+
+}
+
+.first .sub {
+    padding-top: 10px;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.first hr {
+    width: 70%;
+    background-color: rgb(255, 240, 240);
+}
+
+.first  h3 {
+ padding-top: 10px;
+ font-size: 20px;
+ padding-bottom: 20px;
+}
+
+.head .container .second {
+  width: 50%;
+  background-color: white;
+}
+
+.second h5 {
+    font-size:20px ;
+    padding-bottom: 10px;
+}
+
+.second h6 {
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.second input {
+    border: none ;
+    padding: 5px;
+    padding-right: 30px ;
+}
+
+.second .btn {
+    display: flex;
+    padding-top: 20px;
+    cursor: pointer;
+    padding-left: 70px;
+}
+
+.btn .tick {
+  padding-left: 60px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+
+.second .blue {
+    margin-top: 20px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    width: 40%;
+    padding: 7px;
+}

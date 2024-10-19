@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .food-button {
+        background-color: black;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+        padding: 20px 20px;
+        border-radius: 20px;
+        border: none;
+      }
+       .active {
+          background-color: red   !important;
+       } 
+
+       /* .food-button {
+        background-color: black;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+        padding: 20px 20px;
+        border-radius: 20px;
+        border: none;
+      }
+       .active {
+          background-color: red   !important;
+       } */
+    </style>
+  </head>
+  <body>
+    <!-- <p class="Just" id="come">helo! world</p>
+    <p id="gold">I weak</p>
+
+    <div id="wagwan">
+      <p id="p">Whatsup</p>
+    </div>
+
+    <img id="real" src="assest/images/team-1.jpg" alt="" />
+
+    <p id="bet">welcome</p>
+
+    <!-- <button id="btn">submit</button>
+    <br /><br />
+    <form action="" id="submit">
+      <input id="username" type="text" placeholder="username" />
+      <br /><br />
+      <input id="password" type="password" placeholder="password" />
+      <br /><br />
+      <button>submit</button>
+    </form> -->
+
+    <!-- <form id="hello" action="">
+      <h1>Login</h1>
+      <div class="input-box">
+        <h4>Username</h4>
+        <input id="usename" type="Username" placeholder="username" required />
+      </div>
+      <div class="input-box">
+        <h4>Email</h4>
+        <input id="email" type="Password" placeholder="Email" required />
+      </div>
+      <div class="input-box"></div>
+        <h4>number</h4>
+        <input id="number" type="Password" placeholder="number" required />
+      </div>
+      <BR></BR>
+      <div class="submit">
+        <button id="bn" type="submit">submit</button>
+      </div> -->
+     <!-- <div>
+      <h2>Welcome</h2>
+      <p>welcome text</p>
+     </div> -->
+ 
+      <h1>
+        you selected <span id="span"></span> 
+     </h1>
+     <div class="">
+      <button class="food-button">Male</button>
+      <button class="food-button">Female</button>
+     </div>
+
+     <!-- <h1> 
+      select artist
+     </h1>
+     <div class="food-container">
+      <button class="food-button">selena</button>
+      <button class="food-button">Justin</button>
+      <button class="food-button">ariana</button>
+      <button class="food-button">miley</button>
+     </div> -->
+
+     
+     
+    <script>
+      //  const paragrah = document.getElementById("come")
+      //       console.log(paragrah.textContent)
+
+      //   const mary = document.getElementsByClassName("just")
+      //   console.log =(mary.textContent)
+
+      // const mary = document.querySelector(".come");
+      // console.log =(mary.textContent);
+
+      //  const angel = document.getElementById("gold").textcontent="you are verified"
+
+      // document.getElementById("wagwan").innerHTML="<b>this is bold </b>";
+
+      // const img = document.getElementById("real");
+      // img.setAttribute("src", "assest/images/team-2 (1).JPG");
+
+      // const element = document.createElement("p");
+      // element.textContent = "This is a new paragraph.";
+      // document.body.appendChild(element);
+
+      // const parent = document.getElementById("wagwan");
+      // const child = document.getElementById("p");
+      // parent.removeChild(p);
+
+      // const param = document.getElementById("bet")
+      // param.style.color = "red"
+      // param.style.fontsize = "20px"
+      // param.style.backgroundColor = "pink"
+
+      // let button = document.getElementById("btn");
+      // button.addEventListener("mouseover", ()=> {alert
+      // ("Button was clicked")});
+
+      //  form = document.addEventListener("submit", (event) => {
+      //    event.preventDefault();
+
+      //   let username = document.getElementById("username").value;
+      //   let password = document.getElementById("password").value;
+      //   console.log(username,password);
+
+      //   if (username == ""  || password == ""){
+      //       alert("can not submit form");
+      //   } else {alert("submitted successfully")};
+      // });
+
+    //   const param = document.getElementById("hello")
+    //   param.style.color = "red"
+    //   param.style.fontsize = "20px"
+    //   param.style.backgroundColor = "lightblue"
+
+    // document.getElementById("bn").addEventListener("click", function() {
+
+    //   const username = document.getElementById("username").value;
+    //   const password = document.getElementById("username").value;
+    //   const number = document.getElementById("username").value;
+
+    //   const welcomeText = `Hello ${username}! Your email is ${email} and your number ${phonemm};
+
+    //   document.getElementById("loginform").style.display = "none";
+    //   document.getElementById("welcometext").innerText = welcomeText;
+    //   document.getElementById("welcomeMessage").style.display = "block";
+  //   // })
+  //   let gender = 
+  //   const buttons = document.querySelectorAll('.food-button');
+  //    buttons.forEach(button => {
+  //    button.addEventListener('click', function() {
+  //     // btn
+  //     buttons.forEach(btn => btn.classList.remove('active'));
+
+
+  //     // active
+  //     this.classList.add('active')
+  //    });
+  // });
+
+
+  // const button = document.querySelectorAll('.food');
+  //    buttons.forEach(button => {
+  //    button.addEventListener('click', function() {
+  //     // react
+  //     // buttons.forEach(btn => btn.classList.remove('active'));
+
+
+  //     // hit
+  //     this.classList.add('hit')
+  //    });
+  // });
+
+  // const foods = [
+  //   {name: "Selena"},
+  //   {name: "justin"},
+  //   {name: "Ariana"},
+  //   {name: "Miley"},
+  // ]
+
+  // const container = document.getElementsByClassName('food-container');
+  // // loop
+  // foods.forEach(food => {
+  //   // document
+  //   let button = document.createElement('button');
+  //   button.textContent = food.name;
+  //   button.classList.add('food-button');
+  //   // append
+  //   container.appendChild(button);
+  // })
+
+  // //add click 
+  //  button.addEventListener('click', function() {
+  //   // Remove
+  //   const allButtons = document.querySelectorAll('food-button');
+  //   allButtons.forEach(btn => btn.classList.remove('active'));
+
+  //   // hey
+  //   this.classList.add(active);
+  //  })
+    </script>
+  </body>
+</html>
